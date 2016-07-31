@@ -1,0 +1,188 @@
+/*
+ * Fix
+ * Version 0.1.1
+ * https://github.com/jaydenseric/Fix
+*/
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  margin: 0;
+  line-height: 1;
+  font-family: sans-serif;
+}
+iframe {
+  border: 0;
+}
+main {
+  display: block;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+li {
+  display: block;
+}
+dl {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+dd {
+  margin-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: inherit;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+sup {
+  position: relative;
+  top: -.5em;
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+}
+strong {
+  font-weight: bold;
+}
+figure {
+  margin: 0;
+}
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  text-transform: inherit;
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  letter-spacing: inherit;
+  background: none;
+  cursor: pointer;
+  overflow: visible;
+}
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+} /*instead of normalize.css*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+clear: both;
+}
+.container {
+  width: 80%;
+  margin: 0 10%;
+  background-image: url("natural_paper.png");
+}
+body {
+  background-image: url("old_map.png");
+  margin-top: 2vh;
+}
+nav {
+  position: fixed;
+  left: 0;
+  top: 7vh;
+  width: 10%;
+}
+nav a {
+  padding: 0.2em;
+  border-radius: 10%;
+  display: inline-block; /*used for aesthetic purposes*/
+  background-image: url("natural_paper/natural_paper.png");
+  margin: 0.3em 25%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 125%;
+}
+nav a:hover {
+  background-image: url("old_map/old_map.png");
+  color: crimson;
+}
+h1 {
+  width: 50%;
+  margin: .5em auto;
+  text-align: center;
+  font-size: 280%;
+}
+h2 {
+  font-size: 200%;
+}
+p {
+  line-height: 1.5;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 125%;
+}
+h1,
+h2 {
+  line-height: 1.7;
+  font-family: 'Cormorant Upright', serif;
+}
+.container img {
+  border: 2px solid darkslategray;
+  margin: 2% 0;
+  width: 100%;
+}
+.container li {
+  float: left;
+  margin-right: 2%;
+  font-size: 200%;
+  line-height: 1.5;
+}
+.container li:hover {
+  color: purple;
+}
+footer {
+  padding-top: 2em;
+  border-top: 0.1em solid darkslategray;
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Cormorant Upright', serif;
+  text-align: center;
+  font-size: 125%;
+}
+footer a {
+  font-weight: bold;
+}
